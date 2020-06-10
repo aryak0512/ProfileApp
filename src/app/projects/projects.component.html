@@ -1,0 +1,20 @@
+<br>
+<h2><b>My Projects:</b></h2>
+<br>
+<div class="row">
+        <div class="col-lg-4" *ngFor="let p of projects">
+            <div class="card border-success mb-3">
+                <div class="card-header">Domain: <b>{{p.domain}}</b></div>
+                <div class="card-body">
+                  <h4 class="card-title">{{p.title}}</h4>
+                  <p class="card-text">{{p.description}}</p>
+                  <button type="button" class="btn btn-success">
+                    
+                    <a href="{{p.link}}" target="blank"><font color="white">VIEW PROJECT</font></a>
+                  </button>
+                </div>
+                
+              </div>
+        </div>
+ 
+</div>

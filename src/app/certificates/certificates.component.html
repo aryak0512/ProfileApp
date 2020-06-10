@@ -1,0 +1,22 @@
+<br>
+<h2><b>My Technical Certifications:</b></h2>
+<br>
+<div class="row">
+    <div class="col-lg-4" *ngFor="let c of certificates">
+        <div class="card border-primary mb-3">
+            <div class="card-header">Issued by: <b>{{c.org}}</b></div>
+            <div class="card-body">
+              <h4 class="card-title">{{c.title}}</h4>
+              <p class="card-text">{{c.description}}</p>
+              <button type="button" class="btn btn-primary">
+                
+                <a href="{{c.link}}" target="blank"><font color="white">VIEW CERTIFICATE</font></a>
+              </button>
+            </div>
+            
+            
+    </div>
+
+</div>
+
+

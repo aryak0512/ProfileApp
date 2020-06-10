@@ -1,0 +1,27 @@
+<br>
+<h2><b>My Technical Skills:</b></h2>
+<br>
+<div class="row">
+
+  <div class="col-lg-4" *ngFor="let is of intermediate_skills">
+        <div class="card border-primary mb-3" >
+            <div class="card-header">{{is.expertise}}</div>
+                  <div class="card-body">
+                    <h4 class="card-title"><b>{{is.topic}}</b></h4>
+                  </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-4" *ngFor="let bs of basic_skills">
+        <div class="card border-success mb-3">
+            <div class="card-header">{{bs.expertise}}</div>
+                <div class="card-body">
+                  <h4 class="card-title"><b>{{bs.topic}}</b></h4>
+                </div>      
+            </div>
+        </div>
+
+        
+ 
+</div>
